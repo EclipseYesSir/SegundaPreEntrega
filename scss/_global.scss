@@ -1,0 +1,65 @@
+/* Main */
+
+@mixin anclas {
+  text-decoration: none;
+  color: rgb(103, 103, 105);
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .boton {
+    text-align: center;
+  
+    a {
+      @include  anclas;
+      font-size: 15px;
+      font-style: italic;
+    }
+  }
+  
+  button {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .boton a:hover {
+    color: white;
+  }
+  
+  .store-img {
+    text-align: center;
+  
+    img {
+      padding: 10px;
+      margin: 10px;
+      width: 300px;
+      height: 300px;
+      border: 1px solid rgb(103, 103, 105);
+    }
+  
+    p {
+      display: inline;
+    }
+  }
+  
+  .qsomos {
+    text-align: center;
+  
+    p {
+      padding: 7px;
+      margin: 7px;
+    }
+  }
+  
+  .img {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  

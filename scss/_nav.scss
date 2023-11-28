@@ -1,0 +1,16 @@
+/*Navegacion*/
+
+.nav {
+    background: whitesmoke;
+  
+    a {
+      text-transform: uppercase;
+  
+      &:hover {
+        color: white;
+        background-color: black;
+        padding: 10px;
+      }
+    }
+  }
+  
